@@ -1,0 +1,15 @@
+IT Department | DIT001 | Simon | simon@dit.com | 20 
+IT Department | DIT001 | Simon | simon@dit.com | 20 
+IT Department | DIT001 | Simon | simon@dit.com | 20 
+IT | IT202201 | Simon | simondit@cis.com | 23 
+IT | IT001 | Simon | simonit@cis.com | 10 
+IT | IT002 | Atheek | atheekit@cis.com | 03 
+Finance | FD003 | Atheek | atheekfd@cis.com | 12 
+IT Department | ITD001 | Simon | simondit@cis.com | 20 
+Research & Development (R&D) | RD20 | Simon | simonrd@cis.com | 11 
+Research & Development (R&D) |  |  |  |  
+Research & Development (R&D) | RD001 | Simon | simonrd@cis.com | 20 
+HR Department | d | dfg | fdg | gdf 
+Finance Department | FD0022 | Sally | sallyfd@cis.com | 15 
+HR Department | HRD | Nawas | nawashr@cis.com | 12 
+Finance Department | FD | Malan | malanfd@cis.com | 10 

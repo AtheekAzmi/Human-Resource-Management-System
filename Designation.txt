@@ -1,0 +1,9 @@
+Finance Department | Auditor | 10,000 - 20,000 | FD/A/03
+Research & Development (R&D) | Project Manager | 30,000 - 40,000 | PM/RD/02
+Research & Development (R&D) | Project Manager | 30,000 - 40,000 | 
+Research & Development (R&D) | Project Manager | 70,000 - 80,000 | PM/RD/06
+Finance Department | Finance manager | 30,000 - 40,000 | FD/FM/034
+Finance Department | Finance clerk | 20,000 - 30,000 | FD/FC/023
+Research & Development (R&D) | Project Manager | 70,000 - 80,000 | RD/PM/78
+IT Department | IT Team Lead | 60,000 - 70,000 | IT/ITTL/67
+Maintenace Department | Groundskeeper | 30,000 - 40,000 | MD/G/34

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="275" max="-2" attributes="0"/>
+                      <Component id="search" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="44" pref="44" max="-2" attributes="0"/>
+                      <Component id="reset" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="652" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="empname" min="-2" pref="262" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="44" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="empname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="search" min="-2" max="-2" attributes="0"/>
+                  <Component id="reset" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="284" max="-2" attributes="0"/>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="94" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="379" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="91" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Urdu Typesetting" size="36" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search   Employee   Details"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/main/searchemp.png"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="semplotable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="5" rowCount="26">
+                <Column editable="true" title="Employee Name" type="java.lang.Object">
+                  <Data value="Samhan"/>
+                  <Data value="Sinan"/>
+                  <Data value="Arkam"/>
+                  <Data value="Nohail"/>
+                  <Data value="Atheek"/>
+                  <Data value="Azmi"/>
+                  <Data value="Farwis"/>
+                  <Data value="Faroon"/>
+                  <Data value="Umar"/>
+                  <Data value="Umar Cassim"/>
+                  <Data value="Umar Rishan"/>
+                  <Data value="Azmar"/>
+                  <Data value="Rikaz"/>
+                  <Data value="Riswan"/>
+                  <Data value="Dhanush"/>
+                  <Data value="Logadasan"/>
+                  <Data value="Nipuni"/>
+                  <Data value="Kasun"/>
+                  <Data value="Pavithran"/>
+                  <Data value="Sharaf"/>
+                  <Data value="Naveen"/>
+                  <Data value="Daas"/>
+                  <Data value="Nuwan"/>
+                  <Data value="Raju"/>
+                  <Data value="Aarif"/>
+                  <Data value="Ravi"/>
+                </Column>
+                <Column editable="true" title="EPF No" type="java.lang.Object">
+                  <Data value="E001/01"/>
+                  <Data value="E002/02"/>
+                  <Data value="E003/03"/>
+                  <Data value="E004/04"/>
+                  <Data value="E005/05"/>
+                  <Data value="E006/06"/>
+                  <Data value="E007/07"/>
+                  <Data value="E008/08"/>
+                  <Data value="E009/09"/>
+                  <Data value="E010/10"/>
+                  <Data value="E011/11"/>
+                  <Data value="E012/12"/>
+                  <Data value="E013/13"/>
+                  <Data value="E014/14"/>
+                  <Data value="E015/15"/>
+                  <Data value="E016/16"/>
+                  <Data value="E017/17"/>
+                  <Data value="E018/18"/>
+                  <Data value="E019/19"/>
+                  <Data value="E020/20"/>
+                  <Data value="E021/21"/>
+                  <Data value="E022/22"/>
+                  <Data value="E023/23"/>
+                  <Data value="E024/24"/>
+                  <Data value="E025/25"/>
+                  <Data value="E026/26"/>
+                </Column>
+                <Column editable="true" title="Department" type="java.lang.Object">
+                  <Data value="Finance"/>
+                  <Data value="IT "/>
+                  <Data value="R &amp; D"/>
+                  <Data value="Marketing"/>
+                  <Data value="Marketing"/>
+                  <Data value="Maitenance"/>
+                  <Data value="IT "/>
+                  <Data value="Maitenance"/>
+                  <Data value="Finance"/>
+                  <Data value="Marketing"/>
+                  <Data value="IT "/>
+                  <Data value="HR"/>
+                  <Data value="Finance"/>
+                  <Data value="Maitenance"/>
+                  <Data value="Marketing"/>
+                  <Data value="Sales"/>
+                  <Data value="HR"/>
+                  <Data value="Marketing"/>
+                  <Data value="Finance"/>
+                  <Data value="R &amp; D"/>
+                  <Data value="Sales"/>
+                  <Data value="Finance"/>
+                  <Data value="IT"/>
+                  <Data value="IT"/>
+                  <Data value="R &amp; D"/>
+                  <Data value="Finance"/>
+                </Column>
+                <Column editable="true" title="Designation" type="java.lang.Object">
+                  <Data value="Accountant"/>
+                  <Data value="Software Developer"/>
+                  <Data value="Research Manager"/>
+                  <Data value="Brand Manager"/>
+                  <Data value="Marketing Executive"/>
+                  <Data value="Maintenance Supervisor"/>
+                  <Data value="Systems Administrator"/>
+                  <Data value="Maintenance Engineer"/>
+                  <Data value="Auditor"/>
+                  <Data value="Brand Manager"/>
+                  <Data value="Network Administrator"/>
+                  <Data value="HR Manager"/>
+                  <Data value="Auditor"/>
+                  <Data value="Electrical Technician"/>
+                  <Data value="Marketing Manager"/>
+                  <Data value="Sales Representative"/>
+                  <Data value="HR Administrator"/>
+                  <Data value="Marketing Executive"/>
+                  <Data value="Finance Clerk"/>
+                  <Data value="Project Manager"/>
+                  <Data value="Sales Manager"/>
+                  <Data value="Finance officer"/>
+                  <Data value="Software Developer"/>
+                  <Data value="IT Director"/>
+                  <Data value="Research Manager"/>
+                  <Data value="Accountant"/>
+                </Column>
+                <Column editable="true" title="Address" type="java.lang.Object">
+                  <Data value="Maggona"/>
+                  <Data value="Maggona"/>
+                  <Data value="Aluthgama"/>
+                  <Data value="Dhehiwala"/>
+                  <Data value="Beruwala"/>
+                  <Data value="Kaluthara"/>
+                  <Data value="Maggona"/>
+                  <Data value="Maggona"/>
+                  <Data value="Moratuwa"/>
+                  <Data value="Beruwala"/>
+                  <Data value="Maggona"/>
+                  <Data value="Galle"/>
+                  <Data value="Kurunegala"/>
+                  <Data value="Kegalla"/>
+                  <Data value="Dhehiwala"/>
+                  <Data value="Rathnapura"/>
+                  <Data value="Kaluthara"/>
+                  <Data value="Mathara"/>
+                  <Data value="Badhullaa"/>
+                  <Data value="Dhehiwala"/>
+                  <Data value="Bambalapitiya"/>
+                  <Data value="Kaluthara"/>
+                  <Data value="Waskaduwa"/>
+                  <Data value="Beruwala"/>
+                  <Data value="Kandy"/>
+                  <Data value="Waddhuwa"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="empname">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="empnameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="search">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Historic" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter Employee Details to find"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="reset">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Historic" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Historic" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Logout"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
